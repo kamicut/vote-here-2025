@@ -152,7 +152,6 @@ class App extends Component {
   }
 
   render(props, state) {
-    console.log('CURRENT_STATE', state);
     return h(
       'div', {id: 'app'},
       h(MapboxMap, { center: state.center, kalam: state.kalam }),
