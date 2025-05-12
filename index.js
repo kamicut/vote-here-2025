@@ -63,7 +63,7 @@ class App extends Component {
       kalam: ''
     };
     var self = this;
-    fetch('public/polling_stations.csv')
+    fetch('polling_stations.csv')
       .then((res) => {
         if (!res.ok) throw new Error('Failed to fetch CSV data');
         return res.text();
@@ -77,7 +77,7 @@ class App extends Component {
         return rows;
       })
       .then((json) => {
-        return fetch('public/polling_stations.geojson')
+        return fetch('polling_stations.geojson')
           .then((res) => {
             if (!res.ok) throw new Error('Failed to fetch GeoJSON data');
             return res.json();
