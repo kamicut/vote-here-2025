@@ -1,0 +1,38 @@
+{
+  "name": "vote-here-2025",
+  "version": "0.0.1",
+  "description": "Beirut 2025 Polling Station Map",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamicut/vote-here-2025.git"
+  },
+  "keywords": [
+    "vote",
+    "polling",
+    "data",
+    "elections"
+  ],
+  "author": "Marc Farra <marcfarra@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/kamicut/vote-here-2025/issues"
+  },
+  "homepage": "https://github.com/kamicut/vote-here-2025#readme",
+  "dependencies": {
+    "netlify-cli": "^21.2.1",
+    "preact": "^10.26.6",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.4"
+  },
+  "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f"
+}
