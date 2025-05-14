@@ -4,6 +4,7 @@ import {h, render, Component} from 'preact';
 import MapboxMap from './components/MapboxMap.js';
 import Form from './components/form.js';
 import {sectArToEn, getSectKey} from './components/SectPicker.js';
+import {convertSejjelToStandard} from './components/SejjelInput.js';
 import labels from './i18n.json' with { type: 'json' };
 
 
@@ -96,24 +97,25 @@ class App extends Component {
   validateInput(e) {
     e.preventDefault();
     let {sect, subdistrict, gender, sejjel, lang} = this.state;
-    console.log('VALIDATING INPUT', this.state);
     var valid = true;
 
     valid = valid && sect && sect.length > 0;
-    console.log('VALID SECT', valid);
     valid = valid && subdistrict && subdistrict.length > 0;
-    console.log('VALID SUBDISTRICT', valid);
     valid = valid && sejjel && sejjel.length > 0;
-    console.log('VALID SEJJEL', valid);
     valid = valid && gender && (gender === 'ذكر' || gender === 'أنثى');
-    console.log('VALID GENDER', valid);
+    if (!valid) {
+      this.setState({
+        error: labels[lang].errors.validation_error
+      });
+    }
 
     if (valid) {
+      const convertedSejjel = convertSejjelToStandard(sejjel);
       var locations = checkInIndex(this.data, {
         sect,
         subdistrict,
         gender,
-        val: sejjel
+        val: convertedSejjel
       });
       if (locations.length > 0) {
         // Take the first one for now
