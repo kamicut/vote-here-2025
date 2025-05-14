@@ -6299,15 +6299,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.51886829496132,
-          33.895094586295976
+          35.52869294303503,
+          33.89165187401471
         ]
       },
       "properties": {
-        "station_name": "مدرسة الثلاثة اقمار",
+        "station_name": "مدرسة متوسطة الأشرفية الرسمية المختلطة  –  شارع سامي  اليازجي",
         "station_count": 17,
         "district": "الرميل",
-        "maps_url": "https://maps.app.goo.gl/ZX3mtc3579ctnH6j6",
+        "maps_url": "https://maps.app.goo.gl/mafKxqAoK9H8C9yc8",
         "rooms": [
           "غرفة رقم ١",
           "غرفة رقم ١٠",
@@ -9276,15 +9276,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.52869294303503,
-          33.89165187401471
+          35.51886829496132,
+          33.895094586295976
         ]
       },
       "properties": {
-        "station_name": "مدرسة متوسطة الأشرفية الرسمية المختلطة  –  شارع سامي  اليازجي",
+        "station_name": "مدرسة الثلاثة اقمار",
         "station_count": 12,
         "district": "الرميل",
-        "maps_url": "https://maps.app.goo.gl/mafKxqAoK9H8C9yc8",
+        "maps_url": "https://maps.app.goo.gl/ZX3mtc3579ctnH6j6",
         "rooms": [
           "غرفة رقم ١",
           "غرفة رقم ١٠",
