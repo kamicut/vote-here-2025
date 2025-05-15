@@ -3,8 +3,8 @@ import json
 from collections import defaultdict
 
 # Define input and output files
-input_file = "polling_stations.csv"
-output_file = "polling_stations.geojson"
+input_file = "../public/polling_stations.csv"
+output_file = "../public/polling_stations.geojson"
 
 # Initialize GeoJSON structure
 geojson = {
