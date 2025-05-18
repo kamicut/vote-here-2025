@@ -1424,15 +1424,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.51766435272326,
-          33.88366536811388
+          35.5296219,
+          33.8794639
         ]
       },
       "properties": {
         "station_name": "ثانوية الأشرفية الأولى للبنين ",
-        "station_count": 15,
+        "station_count": 28,
         "district": "اشرفية",
-        "maps_url": "https://maps.app.goo.gl/v9zp7Q2ZGX8SSBsF7",
+        "maps_url": "https://maps.app.goo.gl/RfdzhzCrN4FRJgFb7",
         "rooms": [
           "غرفة رقم ١",
           "غرفة رقم ١٠",
@@ -1553,6 +1553,97 @@
             "gender": "ذكر",
             "room": "غرفة رقم ١٣",
             "registry_range": "500 - 674"
+          },
+          {
+            "station_number": "38",
+            "religion": "ماروني",
+            "gender": "ذكر",
+            "room": "غرفة رقم ١",
+            "registry_range": "3 - 355"
+          },
+          {
+            "station_number": "39",
+            "religion": "ماروني",
+            "gender": "ذكر",
+            "room": "غرفة رقم ٢",
+            "registry_range": "356 - 952"
+          },
+          {
+            "station_number": "40",
+            "religion": "ماروني",
+            "gender": "ذكر",
+            "room": "غرفة رقم ٣",
+            "registry_range": "954 - 1381"
+          },
+          {
+            "station_number": "41",
+            "religion": "ماروني",
+            "gender": "ذكر",
+            "room": "غرفة رقم ٤",
+            "registry_range": "1384 - 1692"
+          },
+          {
+            "station_number": "42",
+            "religion": "ماروني",
+            "gender": "ذكر",
+            "room": "غرفة رقم ٥",
+            "registry_range": "1694 - 2048"
+          },
+          {
+            "station_number": "43",
+            "religion": "ماروني",
+            "gender": "أنثى",
+            "room": "غرفة رقم ٦",
+            "registry_range": "3 - 289"
+          },
+          {
+            "station_number": "44",
+            "religion": "ماروني",
+            "gender": "أنثى",
+            "room": "غرفة رقم ٧",
+            "registry_range": "292 - 694"
+          },
+          {
+            "station_number": "45",
+            "religion": "ماروني",
+            "gender": "أنثى",
+            "room": "غرفة رقم ٨",
+            "registry_range": "695 - 1186"
+          },
+          {
+            "station_number": "46",
+            "religion": "ماروني",
+            "gender": "أنثى",
+            "room": "غرفة رقم ٩",
+            "registry_range": "1188 - 1606"
+          },
+          {
+            "station_number": "47",
+            "religion": "ماروني",
+            "gender": "أنثى",
+            "room": "غرفة رقم ١٠",
+            "registry_range": "1611 - 1842"
+          },
+          {
+            "station_number": "48",
+            "religion": "اشوري ارثوذكس",
+            "gender": "أنثى",
+            "room": "غرفة رقم ١١",
+            "registry_range": "3 - 76"
+          },
+          {
+            "station_number": "48",
+            "religion": "ماروني",
+            "gender": "أنثى",
+            "room": "غرفة رقم ١١",
+            "registry_range": "1843 - 2048"
+          },
+          {
+            "station_number": "48",
+            "religion": "اشوري ارثوذكس",
+            "gender": "ذكر",
+            "room": "غرفة رقم ١١",
+            "registry_range": "3 - 77"
           }
         ]
       }
@@ -6020,128 +6111,6 @@
             "gender": "ذكر",
             "room": "غرفة رقم\n ١٦",
             "registry_range": "976 - 1356"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.51217879690269,
-          33.89384123916662
-        ]
-      },
-      "properties": {
-        "station_name": "مدرسة الاورغواي الرسمية المختلطة",
-        "station_count": 13,
-        "district": "اشرفية",
-        "maps_url": "https://maps.app.goo.gl/o4m2NX1w2xbHJfk49",
-        "rooms": [
-          "غرفة رقم ١",
-          "غرفة رقم ١٠",
-          "غرفة رقم ١١",
-          "غرفة رقم ٢",
-          "غرفة رقم ٣",
-          "غرفة رقم ٤",
-          "غرفة رقم ٥",
-          "غرفة رقم ٦",
-          "غرفة رقم ٧",
-          "غرفة رقم ٨",
-          "غرفة رقم ٩"
-        ],
-        "details": [
-          {
-            "station_number": "38",
-            "religion": "ماروني",
-            "gender": "ذكر",
-            "room": "غرفة رقم ١",
-            "registry_range": "3 - 355"
-          },
-          {
-            "station_number": "39",
-            "religion": "ماروني",
-            "gender": "ذكر",
-            "room": "غرفة رقم ٢",
-            "registry_range": "356 - 952"
-          },
-          {
-            "station_number": "40",
-            "religion": "ماروني",
-            "gender": "ذكر",
-            "room": "غرفة رقم ٣",
-            "registry_range": "954 - 1381"
-          },
-          {
-            "station_number": "41",
-            "religion": "ماروني",
-            "gender": "ذكر",
-            "room": "غرفة رقم ٤",
-            "registry_range": "1384 - 1692"
-          },
-          {
-            "station_number": "42",
-            "religion": "ماروني",
-            "gender": "ذكر",
-            "room": "غرفة رقم ٥",
-            "registry_range": "1694 - 2048"
-          },
-          {
-            "station_number": "43",
-            "religion": "ماروني",
-            "gender": "أنثى",
-            "room": "غرفة رقم ٦",
-            "registry_range": "3 - 289"
-          },
-          {
-            "station_number": "44",
-            "religion": "ماروني",
-            "gender": "أنثى",
-            "room": "غرفة رقم ٧",
-            "registry_range": "292 - 694"
-          },
-          {
-            "station_number": "45",
-            "religion": "ماروني",
-            "gender": "أنثى",
-            "room": "غرفة رقم ٨",
-            "registry_range": "695 - 1186"
-          },
-          {
-            "station_number": "46",
-            "religion": "ماروني",
-            "gender": "أنثى",
-            "room": "غرفة رقم ٩",
-            "registry_range": "1188 - 1606"
-          },
-          {
-            "station_number": "47",
-            "religion": "ماروني",
-            "gender": "أنثى",
-            "room": "غرفة رقم ١٠",
-            "registry_range": "1611 - 1842"
-          },
-          {
-            "station_number": "48",
-            "religion": "اشوري ارثوذكس",
-            "gender": "أنثى",
-            "room": "غرفة رقم ١١",
-            "registry_range": "3 - 76"
-          },
-          {
-            "station_number": "48",
-            "religion": "ماروني",
-            "gender": "أنثى",
-            "room": "غرفة رقم ١١",
-            "registry_range": "1843 - 2048"
-          },
-          {
-            "station_number": "48",
-            "religion": "اشوري ارثوذكس",
-            "gender": "ذكر",
-            "room": "غرفة رقم ١١",
-            "registry_range": "3 - 77"
           }
         ]
       }
